@@ -1,0 +1,29 @@
+p {
+    background-color: lightgray;
+    border: solid green;
+}
+
+p:first-child{
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+
+p:nth-child(2){
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+
+p:nth-child(3){
+    width: 200px;
+    height: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
+body {
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+}
