@@ -1,0 +1,29 @@
+div, p{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    margin-bottom: 20px;
+}
+#div1{
+    background: linear-gradient(45deg,blue 0%, green 50%, red);
+}
+
+#div2{
+    background: linear-gradient(110deg,purple 75%, yellow);
+}
+p {
+    
+    background: linear-gradient(white,rgba(0, 0, 0, 0.5));
+}
+
+#div3{
+    background:radial-gradient(circle,lightblue,pink);
+}
+
+#div4{
+    background:repeating-radial-gradient(10px,black,white);
+}
+
+#div4:hover{
+    background:repeating-radial-gradient(10px,white,black);
+}

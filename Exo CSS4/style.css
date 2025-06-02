@@ -1,0 +1,15 @@
+body{
+    font-size: 3em;
+}
+
+li:nth-child(even){
+    color: blue;
+}
+
+ul:hover li:nth-child(even){
+    color: black ;
+}
+
+ul:hover li:nth-child(odd){
+    color: blue ;
+}

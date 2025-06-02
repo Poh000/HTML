@@ -1,0 +1,147 @@
+body {
+  background-color: whitesmoke;
+  padding: 10px;
+  max-width: 21cm;
+  max-height: 29.7cm;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+section {
+  margin-bottom: 5px;
+}
+
+div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin: 5px 0;
+  padding-bottom: 5px;
+}
+
+img {
+  width: 210px;
+  padding: 20px;
+  background-color: white;
+  float: right;
+}
+
+#Titre {
+  text-align: center;
+  font-size: 80%;
+  color: #1f497d;
+}
+
+#Titre h1 {
+  font-size: 200%;
+}
+
+#Description {
+  color: white;
+  background-color: #1f497d;
+  padding: 20px;
+  font-size: 100%;
+}
+
+#Gauche {
+  width: 60%;
+  font-size: 100%;
+}
+
+#Gauche h2 {
+  color: #1f497d;
+}
+
+#Gauche h3 {
+  padding-left: 10%;
+  font-size: 120%;
+}
+#Gauche h4 {
+  padding-left: 10%;
+  font-size: 110%;
+  color: #1f497d;
+}
+#Gauche h5 {
+  padding-left: 10%;
+  font-size: 110%;
+}
+
+#Gauche p {
+  padding-left: 10%;
+  font-size: 100%;
+}
+
+#Contact {
+  color: white;
+  background-color: #1f497d;
+  padding: 20px;
+  font-size: 90%;
+}
+
+#Competences {
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+}
+
+.cv-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.droite {
+  width: 250px;
+}
+
+ul li {
+  margin: 3px 0;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#Intro {
+  display: flex;
+  align-items: stretch;
+}
+
+#Intro img {
+  object-fit: cover;
+}
+
+.date {
+  width: 25%;
+  font-weight: bold;
+  color: #1f497d;
+  padding-left: 10px;
+}
+
+#Hobbies {
+    color: white;
+    background-color: #1f497d;
+    padding: 20px;
+    font-size: 110%;
+    list-style: disc;
+    height: 230px;
+  }
+
+#Hobbies ul {
+    padding: 0;
+  }
+
+
+.date {
+    width: 60px;
+    height: 40px;
+    background-color: #1f497d;
+    border-radius: 100%;
+    color: white;
+}

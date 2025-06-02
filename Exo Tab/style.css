@@ -1,0 +1,40 @@
+/* Pour tab1
+
+th {
+    background-color: skyblue;
+    border-left:2px solid black;
+    border-right:2px solid black ;
+}
+
+table {
+    border: 5px double purple;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+caption {
+    color: purple;
+}
+
+*/
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-image: url(Studio_Ghibli_logo.png);
+    background-size: 100%;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+th {
+    border-left:2px solid black;
+    border-right:2px solid black ;
+}

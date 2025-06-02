@@ -1,0 +1,17 @@
+body{
+    background-color: #9c4ce7;
+    max-height: 600px;
+    max-width: 1000px;
+}
+
+div{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    justify-content: center;
+    background-color: #3F7F88;
+    width: 800px;
+    height: 400px;
+    box-shadow: -10px -10px 30px white,
+    10px 10px 30px black
+}
